@@ -20,6 +20,7 @@ All notable changes to eww will be listed here, starting at changes since versio
 - Fix wayland monitor names support (By: dragonnn)
 - Load systray items that are registered without a path (By: Kage-Yami)
 - `get_locale` now follows POSIX standard for locale selection (By: mirhahn, w-lfchen)
+- Improve multi-monitor handling under wayland (By: bkueng)
 
 ### Features
 - Add warning and docs for incompatible `:anchor` and `:exclusive` options
@@ -40,6 +41,7 @@ All notable changes to eww will be listed here, starting at changes since versio
 - Add `:lines` and `:wrap-mode` properties to label widget (By: vaporii)
 - Add `value-pos` to scale widget (By: ipsvn)
 - Add `floor` and `ceil` function calls to simplexpr (By: wsbankenstein)
+- Add `formatbytes` function calls to simplexpr (By: topongo)
 - Add `rounded` to circular-progress widget (By: MikeTeok)
 
 ## [0.6.0] (21.04.2024)
